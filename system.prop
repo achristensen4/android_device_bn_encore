@@ -2,7 +2,7 @@
 # system.prop for encore
 #
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=30
+wifi.supplicant_scan_interval=16
 
 ro.vold.switchablepair=/storage/sdcard1,/storage/sdcard0
 ro.cwm.forbid_format=/boot
@@ -16,4 +16,4 @@ ro.sf.lcd_density=160
 # XXX This optimization slows down SGX540; is this true of SGX530 too?
 ro.hwui.disable_scissor_opt=true
 # GPU producer to CPU consumer not supported
-ro.bq.gpu_to_cpu_unsupported=1
+ro.bq.gpu_to_cpu_unsupported=0
